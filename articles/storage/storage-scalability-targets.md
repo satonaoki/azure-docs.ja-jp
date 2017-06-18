@@ -47,16 +47,16 @@ ms.lasthandoff: 04/03/2017
 
 詳細については、[Windows VM のサイズ](../virtual-machines/windows/sizes.md?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json)と [Linux VM のサイズ](../virtual-machines/linux/sizes.md?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json)に関するページをご覧ください。
 
-## <a name="managed-virtual-machine-disks"></a>管理対象の仮想マシン ディスク
+## <a name="managed-virtual-machine-disks"></a>管理仮想マシン ディスク
 
 [!INCLUDE [azure-storage-limits-vm-disks-managed](../../includes/azure-storage-limits-vm-disks-managed.md)]
 
-## <a name="unmanaged-virtual-machine-disks"></a>非管理対象の仮想マシン ディスク
+## <a name="unmanaged-virtual-machine-disks"></a>非管理仮想マシン ディスク
 [!INCLUDE [azure-storage-limits-vm-disks-standard](../../includes/azure-storage-limits-vm-disks-standard.md)]
 
 [!INCLUDE [azure-storage-limits-vm-disks-premium](../../includes/azure-storage-limits-vm-disks-premium.md)]
 
-## <a name="scalability-targets-for-azure-resource-manager"></a>Azure リソース マネージャーのスケーラビリティ ターゲット
+## <a name="scalability-targets-for-azure-resource-manager"></a>Azure Resource Manager のスケーラビリティ ターゲット
 [!INCLUDE [azure-storage-limits-azure-resource-manager](../../includes/azure-storage-limits-azure-resource-manager.md)]
 
 ## <a name="partitions-in-azure-storage"></a>Azure Storage 内のパーティション
