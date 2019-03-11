@@ -71,6 +71,10 @@ Application Gateway は、お客様の仮想ネットワーク専用のデプロ
 
 パブリック IP アドレスをエンドポイントとして使用する場合は、パブリック IP アドレス リソースまたはポータルにあるアプリケーション ゲートウェイの[概要] ページでこの情報を確認できます。 内部 IP アドレスの場合は、[概要] ページで確認できます。
 
+### Application Gateway の Keep-Alive タイムアウトと TCP アイドル タイムアウト設定は何ですか?
+
+v1 SKU の Keep-Alive タイムアウトは 120 秒です。v2 SKU の Keep-Alive タイムアウトは 75 秒です。TCP アイドル タイムアウトは、フロントエンド VIP と Application Gateway で既定で 4 分です。
+
 ### <a name="does-the-ip-or-dns-name-change-over-the-lifetime-of-the-application-gateway"></a>IP または DNS 名は Application Gateway の有効期間内に変更されますか?
 
 アプリケーション ゲートウェイが停止され起動されると、VIP が変更される可能性があります。 アプリケーション ゲートウェイに関連付けられた DNS は、そのゲートウェイのライフサイクル全体を通して変更されません。 そのため、CNAME エイリアスを使用してアプリケーション ゲートウェイの DNS アドレスを参照することをお勧めします。
